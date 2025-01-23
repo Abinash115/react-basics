@@ -6,6 +6,9 @@ import Add from './components/multiple-component/Add'
 import Header from './components/multiple-component/Header'
 import MainContent from './components/multiple-component/MainContent'
 import Footer from './components/multiple-component/Footer'
+import ListRendering from './components/list-data/ListRendering'
+import UserList from './components/list-data/UserList'
+import ProductList from './components/list-data/ProductList'
 
 const App = () => {
   return (
@@ -16,9 +19,12 @@ const App = () => {
       {/* <WelcomeMessage/> */}
       {/* <Greet/>
       <Add/> */}
-      <Header/>
+      {/* <Header/>
       <MainContent/>
-      <Footer/>
+      <Footer/> */}
+      {/* <ListRendering items={["Wireless Earbuds", "Power Bank", "New SSD", "Hoddie"]}/> */}
+      <UserList/>
+      <ProductList/>
     </div>
   )
 }
